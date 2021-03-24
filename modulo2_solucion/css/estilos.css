@@ -3,6 +3,8 @@
 /********** Estilos base **********/
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 h1 {
   margin-bottom: 15px;
@@ -10,7 +12,7 @@ h1 {
 }
 
 
-/* 1px solid black  */
+/* Parrafo */
 p {border: 1px solid black;
   border-top: 1px transparent;
   margin-right: 0px;
@@ -45,7 +47,7 @@ p {border: 1px solid black;
   height: 40px;
   margin-right: 0%;
   margin-left: 70%;
-   margin-top: 0;
+  margin-top: 0;
   font-family: Helvetica;
   color: white;
 }
@@ -57,7 +59,7 @@ p {border: 1px solid black;
   height: 40px;
   margin-right: 0%;
   margin-left: 70%;
-   margin-top: 0;
+  margin-top: 0;
   font-family: Helvetica;
   color: white;
 }
@@ -66,8 +68,6 @@ p {border: 1px solid black;
 .row {
   width: 100%;
 }
-
-
 
 /********** Large devices only **********/
 @media (min-width:  992px)  {
